@@ -10,7 +10,6 @@
                     <li class="navbar__menu__item" data-link="#about">About</li>
                     <li class="navbar__menu__item" data-link="#skills">Skills</li>
                     <li class="navbar__menu__item" data-link="#work">My work</li>
-                    <!-- <li class="navbar__menu__item" data-link="#testimonials">Testimonial</li> -->
                     <li class="navbar__menu__item" data-link="#contact">Contact</li>
                 </ul>
             </div>
@@ -24,10 +23,7 @@ export default {
 }
 </script>
 
-<style>
-
-
-
+<style scoped>
 
 /* Navbar */
 #navbar {

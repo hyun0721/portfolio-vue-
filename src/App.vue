@@ -8,7 +8,8 @@
 
 <script>
 
-import NavigateBar    from './components/home/NavigateBar.vue';
+// import NavigateBar    from './components/home/NavigateBar.vue'
+import NavigateBar    from './components/home/Navigate.vue'
 import Home           from './components/home/Home.vue';
 import About          from './components/home/About.vue';
 
