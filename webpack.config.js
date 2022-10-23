@@ -56,6 +56,7 @@ module.exports = {
   devtool: '#eval-source-map'
 }
 
+// 운영환경 Custom Setting
 if (process.env.NODE_ENV === 'production') {
   module.exports.devtool = '#source-map'
   // http://vue-loader.vuejs.org/en/workflow/production.html
@@ -75,4 +76,9 @@ if (process.env.NODE_ENV === 'production') {
       minimize: true
     })
   ])
+}
+
+// 개발환경 Custom Setting
+else if (process.env.NODE_ENV === 'development') {
+  module.exports.devtool = '#source-map'
 }

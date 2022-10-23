@@ -26,6 +26,11 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+
+  created: function(){
+    console.log('Start ...');
+    console.log('Test ...');
   }
 }
 </script>
