@@ -25,6 +25,8 @@ export default {
 
 <style scoped>
 
+/* @import "../../assets/css/global.css"; */
+
 /* Navbar */
 #navbar {
     position: fixed;
@@ -55,7 +57,8 @@ export default {
 }
 
 .navbar__menu__item:hover {
-    background-color: var(--color-dark-puple);
+    background-color: #71279c;
+    /* background-color: var(--color-dark-puple); */
     border-radius: var(--size-border-radius);
     cursor: pointer;
 }

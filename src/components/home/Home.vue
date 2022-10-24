@@ -1,10 +1,9 @@
 <template>
-    <div>
+    <div class="home">
         <section id="home">
             <div class="home__container">
                 <img src="../../images/profile.jpg" alt="" class="home_avatar">
                 <h1 class="home__title">Hello,<br/> I'm Donghyun Kim</h1>
-                <h2 style="color: var(--color-white, pink);"> TEST </h2>
                 <!-- <h2 class="home__description">Communicator, Steady Self-Development </h2> -->
                 <button class="home__contact">Contact Me</button>
             </div>
@@ -19,6 +18,9 @@ export default {
 </script>
 
 <style scoped>
+
+/* @import "../../assets/css/global.css"; */
+
 
 #home {
     background: url("../../images/home-background.png") center/cover no-repeat;

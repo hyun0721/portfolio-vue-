@@ -31,6 +31,8 @@ export default {
 
 <style>
 
+@import "./assets/css/global.css";
+
 body {
   width: 100%;
   height: 100%;
