@@ -3,15 +3,18 @@
     <NavigateBar></NavigateBar>
     <HomeArea></HomeArea>
     <AboutArea></AboutArea>
+    <Skills></Skills>
+    <Contact></Contact>
   </div>
 </template>
 
 <script>
 
-// import NavigateBar    from './components/home/NavigateBar.vue'
-import NavigateBar    from './components/home/Navigate.vue'
+import NavigateBar    from './components/home/Navigate.vue';
 import Home           from './components/home/Home.vue';
 import About          from './components/home/About.vue';
+import Skills         from './components/home/Skills.vue';
+import Contact        from './components/home/Contact.vue';
 
 export default {
   name: 'app',
@@ -24,7 +27,9 @@ export default {
   components: {
     'NavigateBar' : NavigateBar,
     'HomeArea'    : Home,
-    'AboutArea'   : About
+    'AboutArea'   : About,
+    'Skills'      : Skills,
+    'Contact'     : Contact
   }
 }
 </script>

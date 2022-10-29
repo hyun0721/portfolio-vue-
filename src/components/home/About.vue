@@ -43,15 +43,15 @@
                     <div class="job">
                         <img src="../../images/logo/logisall_logo.png" alt="logisAll" class="job__logo">
                         <div class="job__description">
-                            <p class="job__name">Currently working at LogisAll</p>
-                            <p class="job__period"></p>
+                            <p class="job__name">로지스올 WnD팀</p>
+                            <p class="job__period">2021.12 ~ </p>
                         </div>
                     </div>
                     <div class="job">
                         <img src="../../images/logo/thira_logo.png" alt="thira-utech" class="job__logo">
                         <div class="job__description">
-                            <p class="job__name">Currently working at Thirautech</p>
-                            <p class="job__period"></p>
+                            <p class="job__name">티라유텍 하이테크 사업부</p>
+                            <p class="job__period">2019.01 ~ 2021.12</p>
                         </div>
                     </div>
                 </div>
