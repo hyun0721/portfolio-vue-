@@ -1,4 +1,17 @@
 <template>
+    <!--
+
+    [Star]
+    <i class="fa-solid fa-star"></i>
+
+    [Half Star]
+    <i class="fa-solid fa-star-half-stroke"></i>
+
+    [Empty Star]
+    <i class="fa-regular fa-star"></i>
+
+    -->
+
     <div class="skills">
         <section id="skills" class="section">
             <div class="section__container">
@@ -7,94 +20,170 @@
                 <p>
                     <!-- 기술 관련 내용  : 뭘 공부하고있고, 현재 공부하는 법, 스트레스 관리 등 학습에 대한 부분 -->
                 </p>
-        
-<!--
-
-[Star]
-<i class="fa-solid fa-star"></i>
-
-[Half Star]
-<i class="fa-solid fa-star-half-stroke"></i>
-
-[Empty Star]
-<i class="fa-regular fa-star"></i>
-
--->
+    
                 <div class="skillset">
-                    <div class="skillset__left">
-                        <h3 class="skillset__title">Skills</h3>
-                        <div class="skill">
-                            <table style="width:100%">
-                                <colgroup>
-                                    <col width="10%">
-                                    <col width="50%">
-                                </colgroup>
-                                <tr>
-                                    <th>
-                                        <div class="skill_desc">
-                                            <span>JavaScript</span>
-                                        </div>
-                                    </th>
-                                    <td>
-                                        <div class="skill__level">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star-half-stroke"></i>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>
-                                        <div class="skill_desc">
-                                            <span>HTML</span>
-                                        </div>
-                                    </th>
-                                    <td>
-                                        <div class="skill__level">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                        </div>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>
-                                        <div class="skill_desc">
-                                            <span>CSS</span>
-                                        </div>
-                                    </th>
-                                    <td>
-                                        <div class="skill__level">
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star"></i>
-                                            <i class="fa-solid fa-star-half-stroke"></i>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
+                    <div class="category language">
+                        <h3 class="skillset__title">Language</h3>
+                        <ul>
+                            <li class="contents__container">
+                                <div class="skill_desc">
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="skill__level">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </li>
+                            <li class="contents__container">
+                                <div class="skill_desc">
+                                    <span>HTML</span>
+                                </div>
+                                <div class="skill__level">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </li>
+                            <li class="contents__container">
+                                <div class="skill_desc">
+                                    <span>CSS</span>
+                                </div>
+                                <div class="skill__level">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
-                    <div class="skillset__right">
-                        <div class="tools">
-                            <h3 class="skillset__title">Tools</h3>
-                            <ul class="tools__list">
-                                <li><span>Visual Studio</span></li>
-                                <li><span>Visual Studio Code</span></li>
-                                <li><span>Eclipse</span></li>
-                                <li><span>SQL Developer</span></li>
-                                <li><span>PyCharm</span></li>
-                            </ul>
-                        </div>
-                        <div class="etc">
-                            <h3 class="skillset__title">Etc</h3>
-                            <ul class="etc__list">
-                                <li><span>TFS</span></li>
-                                <li><span>Git</span></li>
-                                <li><span></span></li>
-                            </ul>
-                        </div>
+
+                    <div class="category IDE" style="background-color: var(--color-grey);">
+                        <h3 class="skillset__title">IDE</h3>
+                        <ul>
+                            <li class="contents__container">
+                                <div class="skill_desc">
+                                    <span>VS Code</span>
+                                </div>
+                                <div class="skill__level">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </li>
+                            <li class="contents__container">
+                                <div class="skill_desc">
+                                    <span>Eclipse</span>
+                                </div>
+                                <div class="skill__level">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </li>
+                            <li class="contents__container">
+                                <div class="skill_desc">
+                                    <span>Visual Studio</span>
+                                </div>
+                                <div class="skill__level">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </li>
+                            <li class="contents__container">
+                                <div class="skill_desc">
+                                    <span>DBeaver</span>
+                                </div>
+                                <div class="skill__level">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </li>
+                            <li class="contents__container">
+                                <div class="skill_desc">
+                                    <span>SQL Developer</span>
+                                </div>
+                                <div class="skill__level">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </li>
+                            <li class="contents__container">
+                                <div class="skill_desc">
+                                    <span>Data Grip</span>
+                                </div>
+                                <div class="skill__level">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </li>
+                            <li class="contents__container">
+                                <div class="skill_desc">
+                                    <span>Win Merge</span>
+                                </div>
+                                <div class="skill__level">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="category Tools">
+                        <h3 class="skillset__title">ETC</h3>
+                        <ul>
+                            <li class="contents__container">
+                                <div class="skill_desc">
+                                    <span>Source Tree (Git)</span>
+                                </div>
+                                <div class="skill__level">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </li>
+                            <li class="contents__container">
+                                <div class="skill_desc">
+                                    <span>SVN</span>
+                                </div>
+                                <div class="skill__level">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </li>
+                            <li class="contents__container">
+                                <div class="skill_desc">
+                                    <span>OZ (Design/Query)</span>
+                                </div>
+                                <div class="skill__level">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </li>
+                            <li class="contents__container">
+                                <div class="skill_desc">
+                                    <span>EAI (webMethod)</span>
+                                </div>
+                                <div class="skill__level">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -116,6 +205,8 @@ export default {
 }
 
 .skillset {
+    width: 100%;
+    min-height: 400px;
     display: flex;
     background-color: var(--color-light-grey);
     color: var(--color-light-white);
@@ -153,9 +244,11 @@ export default {
 }
 
 .skill_desc {
+    width: 30%;
+    min-width: 150px;
+    margin-right: 10px;
     display: flex;
     justify-content: space-between;
-    margin-right: 10px;
 }
 
 .skill__level {
@@ -177,5 +270,17 @@ export default {
 .skill__value {
     height: 3px;
     background-color: var(--color-orange);
+}
+
+.category {
+    width: inherit;
+    height: inherit;
+}
+
+.contents__container {
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin: 10px 0px 0px 25px;
 }
 </style>

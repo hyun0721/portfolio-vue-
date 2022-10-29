@@ -1,6 +1,6 @@
 <template>
     <div class="nav">
-        <nav id="navbar">
+        <nav id="navbar" v-bind:class="{ navbarDark: isOverFlow }">
             <div class="navbar__logo">
                 <img width="100px" height="100px" src="../../images/logo/favicon.png" alt=""/>
             </div>
@@ -20,13 +20,26 @@
 <script>
 export default {
 
+    data: function() {
+        return {
+            isOverFlow: false,
+        }
+    },
+
+    mounted: function() {
+        let navbarHeight = document.querySelector('#navbar').getBoundingClientRect().height; // Navigate 영역 높이
+
+        /** Scroll 이벤트 : 위치에 따라 Navigate 영역 강조 */
+        document.addEventListener('scroll', ()=>{
+            this.isOverFlow = (window.scrollY > navbarHeight);
+        });
+
+    },
+
 }
 </script>
 
 <style scoped>
-
-/* @import "../../assets/css/global.css"; */
-
 /* Navbar */
 #navbar {
     position: fixed;
@@ -42,7 +55,13 @@ export default {
     z-index: 1;
 }
 
-#navbar.navbar--dark {
+
+.navbarDark {
+    background-color: var(--color-favorit-puple) !important;
+    padding: 8px;
+}
+
+.navbar--dark {
     background-color: var(--color-favorit-puple);
     padding: 8px;
 }
@@ -67,5 +86,4 @@ export default {
     border: 1px solid var(--color-white);
     border-radius: var(--size-border-radius);
 }
-
 </style>

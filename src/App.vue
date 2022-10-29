@@ -21,7 +21,6 @@ export default {
 
   created: function(){
     console.log('Start ...');
-    console.log('Test ...');
   },
   
   components: {
