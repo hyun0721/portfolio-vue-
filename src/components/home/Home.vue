@@ -18,10 +18,6 @@ export default {
 </script>
 
 <style scoped>
-
-/* @import "../../assets/css/global.css"; */
-
-
 #home {
     background: url("../../images/home-background.png") center/cover no-repeat;
     padding: 40px;
@@ -50,5 +46,4 @@ export default {
   border: 2px solid var(--color-white);
   border-radius: var(--size-border-radius);
 }
-
 </style>

@@ -34,7 +34,6 @@ export default {
 </script>
 
 <style>
-
 @import "./assets/css/global.css";
 
 body {
@@ -46,10 +45,4 @@ body {
 .shadow {
   box-shadow: 5px 10px 10px rgba(0,0,0,0.03);
 }
-
-.layout {
-  /* display: inline-flex;
-  flex-direction: column; */
-}
-
 </style>

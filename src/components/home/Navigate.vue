@@ -6,11 +6,16 @@
             </div>
             <div>
                 <ul class="navbar__menu">
-                    <li class="navbar__menu__item active" data-link="#home">Home</li>
+                    <!-- <li class="navbar__menu__item active" data-link="#home">Home</li>
                     <li class="navbar__menu__item" data-link="#about">About</li>
                     <li class="navbar__menu__item" data-link="#skills">Skills</li>
                     <li class="navbar__menu__item" data-link="#work">My work</li>
-                    <li class="navbar__menu__item" data-link="#contact">Contact</li>
+                    <li class="navbar__menu__item" data-link="#contact">Contact</li> -->
+                    <li class="navbar__menu__item active"  v-on:click="scrollIntoView('#home')">Home</li>
+                    <li class="navbar__menu__item"         v-on:click="scrollIntoView('#about')">About</li>
+                    <li class="navbar__menu__item"         v-on:click="scrollIntoView('#skills')">Skills</li>
+                    <li class="navbar__menu__item"         v-on:click="scrollIntoView('#work')">My work</li>
+                    <li class="navbar__menu__item"         v-on:click="scrollIntoView('#contact')">Contact</li>
                 </ul>
             </div>
         </nav>
@@ -26,6 +31,12 @@ export default {
         }
     },
 
+    methods: {
+        scrollIntoView: function(link){
+            document.querySelector(link).scrollIntoView({ behavior : 'smooth' });
+        }
+    },
+
     mounted: function() {
         let navbarHeight = document.querySelector('#navbar').getBoundingClientRect().height; // Navigate 영역 높이
 
@@ -33,9 +44,7 @@ export default {
         document.addEventListener('scroll', ()=>{
             this.isOverFlow = (window.scrollY > navbarHeight);
         });
-
     },
-
 }
 </script>
 

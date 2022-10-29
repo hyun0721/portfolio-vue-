@@ -36,7 +36,6 @@ export default {
 </script>
 
 <style scoped>
-
 /* Contact */
 #contact {
     background-color: var(--color-favorit-puple);
@@ -74,5 +73,4 @@ export default {
     font-size: 25px;
     font-weight: 600;
 }
-
 </style>

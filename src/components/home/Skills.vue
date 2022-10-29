@@ -20,7 +20,6 @@
                 <p>
                     <!-- 기술 관련 내용  : 뭘 공부하고있고, 현재 공부하는 법, 스트레스 관리 등 학습에 대한 부분 -->
                 </p>
-    
                 <div class="skillset">
                     <div class="category language">
                         <h3 class="skillset__title">Language</h3>
@@ -183,6 +182,38 @@
                                     <i class="fa-solid fa-star"></i>
                                 </div>
                             </li>
+                            <li class="contents__container">
+                                <div class="skill_desc">
+                                    <span>Alopex UI & Grid</span>
+                                </div>
+                                <div class="skill__level">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </li>
+                            <li class="contents__container">
+                                <div class="skill_desc">
+                                    <span>Spread JS</span>
+                                </div>
+                                <div class="skill__level">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </li>
+                            <li class="contents__container">
+                                <div class="skill_desc">
+                                    <span>jqGrid</span>
+                                </div>
+                                <div class="skill__level">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -199,7 +230,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 #skills {
     background-color: var(--color-yellow);
 }
